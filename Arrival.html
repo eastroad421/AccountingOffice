@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>進文處理</title>
+	</head>
+	<body>         
+	   <Form>
+		  <table border="2px">
+		        <thead>
+				       <title><h2>進文</h2></title>
+				</thead>
+				<tbody>
+				   <tr>
+				       <p>
+				       
+			                <span>輸入舊文號 : </span> &nbsp;<INPUT name="OldID" size=16 maxlength=100>&nbsp;
+			                <input type="button" value="查詢" style="font-size:16px; width:60px; height:30px;">
+                       
+                       </p>					   
+				   </tr>
+				   <tr>
+				        
+			                 <input type="reset" value="新增文號" style="font-size:16px; width:100px; height:50px;">
+		                     <span>新文號 : </span> &nbsp;<INPUT name="NewID" size=16 maxlength=100> 
+		                
+				   </tr>
+				   <tr>
+				        
+	                       <p><span>主旨:</span> </p>
+		                   <textarea style="width:300px;height:50px;">
+		                   </textarea>
+		                
+				   </tr>
+				   
+				   <tr>
+				        <td id="subtitle" colspan="7" align="center">來源科室</td>
+				   </tr>
+				   
+				   <tr>
+				        
+						  <td><label><input type="radio" name="office" value="國中"> 國中</label></td>
+						  <td><label><input type="radio" name="office" value="國小"> 國小</label></td>
+						  <td><label><input type="radio" name="office" value="軍訓"> 軍訓</label></td>
+						  <td><label><input type="radio" name="office" value="體健"> 體健</label></td>
+						  <td><label><input type="radio" name="office" value="政風"> 政風</label></td>
+						  <td><label><input type="radio" name="office" value="秘書"> 秘書</label></td>
+						  <td><label><input type="radio" name="office" value="幼教"> 幼教</label></td>
+				   </tr>
+				   <tr>
+				           
+						   <td><label><input type="radio" name="office" value="資教"> 資教</label></td>
+						   <td><label><input type="radio" name="office" value="特教"> 特教</label></td>
+						   <td><label><input type="radio" name="office" value="高中"> 高中</label></td>
+						   <td><label><input type="radio" name="office" value="人事"> 人事</label></td>
+						   <td><label><input type="radio" name="office" value="督學"> 督學</label></td>
+						   <td><label><input type="radio" name="office" value="局本部"> 局本部</label></td>
+						   <td><label><input type="radio" name="office" value="其它"> 其它</label></td>
+	                    
+                 	</tr>
+					<tr>
+					     <td id="subtitle" colspan="7" align="center">承辦人員</td>
+					</tr>
+				    <tr>
+					     <td><label><input type="radio" name="people" value="主任"> 主任</label></td>
+						 <td><label><input type="radio" name="people" value="專員"> 專員</label></td>
+					</tr>
+					<tr>
+					     <td  id="subtitle" colspan="7" align="center">審核股</td>
+					</tr>
+					<tr>
+					     <td><label><input type="radio" name="people" value="政賢"> 政賢</label></td>
+						 <td><label><input type="radio" name="people" value="彩辰"> 彩辰</label></td>
+						 <td><label><input type="radio" name="people" value="汝偉"> 汝偉</label></td>
+						 <td><label><input type="radio" name="people" value="湘嵐"> 湘嵐</label></td>
+						 <td><label><input type="radio" name="people" value="儷禎"> 儷禎</label></td>
+						 <td><label><input type="radio" name="people" value="惠峯"> 惠峯</label></td>
+					</tr>
+					<tr>
+					     <td id="subtitle" colspan="7" align="center">預算股</td>
+					</tr>
+					<tr>
+					     <td><label><input type="radio" name="people" value="品瑑"> 品瑑</label></td>
+						 <td><label><input type="radio" name="people" value="鈺舜"> 鈺舜</label></td>
+						 <td><label><input type="radio" name="people" value="秀玉"> 秀玉</label></td>
+						 <td><label><input type="radio" name="people" value="嘉鍹"> 嘉鍹</label></td>
+						 <td><label><input type="radio" name="people" value="玟伶"> 玟伶</label></td>
+						 <td><label><input type="radio" name="people" value="雪珠"> 雪珠</label></td>
+					</tr>
+					<tr>
+					     <td id="subtitle" colspan="7" align="center">會計股</td>
+					</tr>
+					<tr>
+					     <td><label><input type="radio" name="people" value="振昌"> 振昌</label></td>
+						 <td><label><input type="radio" name="people" value="滄皓"> 滄皓</label></td>
+						 <td><label><input type="radio" name="people" value="玉秀"> 玉秀</label></td>
+						 <td><label><input type="radio" name="people" value="畇巧"> 畇巧</label></td>
+						 <td><label><input type="radio" name="people" value="珈茲"> 珈茲</label></td>
+						 <td><label><input type="radio" name="people" value="美雪"> 美雪</label></td>
+						 <td><label><input type="radio" name="people" value="素美"> 素美</label></td>
+						
+					</tr>
+					<tr>
+					     <td id="subtitle" colspan="7" align="center">統計股</td>
+					</tr>
+					<tr>
+					     <td><label><input type="radio" name="people" value="志宴"> 志宴</label></td>
+						 <td><label><input type="radio" name="people" value="崇毅"> 崇毅</label></td>
+						 <td><label><input type="radio" name="people" value="英華"> 英華</label></td>
+					</tr>
+				
+				</tbody>
+		   </table>
+		
+		
+
+		
+		<input type="submit" value="確認修改/登錄" style="width:160px;height:40px;font-size:20px;">
+		
+
+
+
+		</Form>
+	</body>
+</html>
